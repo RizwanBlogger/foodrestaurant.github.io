@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: DallasScript;
+    src: url(font/DallasPS-Script.otf);
+}
+.bgImg{
+    width:100%;
+    height: 100vh;
+	color:white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('image/jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.myheader{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+   
+}
+.tagline{
+    display: block;
+}
+.responsiveheading{
+    font-size: 60px;
+    color: green;
+}
+.navbar ul li a{
+    color: white;
+}
+.navbar ul li a:hover{
+        font-size: 20px; 
+}
+.navbar a{
+    color: white;
+}
+.heading1{
+    font-family: DallasScript;
+    font-size: 60px;
+    margin: 0px;
+}
+.content{
+    text-align: center;
+    padding: 100px 100px;
+}
+.paragraph{
+    color: orange;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+     border: solid 1px orange;
+     background: linear-gradient(0deg, rgba(139, 132, 132, -0.8), rgba(139, 132, 132, -0.8));
+     color: orange;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     margin: 10px;
+   }
+   .button:hover{
+    background-color:orange;
+    color: white;
+}
+.maincontent{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+}
+.row1{
+    width: 90%;
+    height: 45vh;
+    margin-left: 80px;
+    justify-content: center;
+   display: flex;
+}
+.coluam{
+    width: 29%;
+    height:60vh ;
+    margin: 3px;
+}
+.paragraph1{
+    text-align: left;
+    color: orange;
+    /* padding: 0px; */
+    font-size: 40px;
+    font-family: DallasScript;
+}
+.heading2{
+    font-family: DallasScript;
+    text-align: left;
+    font-size: 50px;
+    margin: 0px;
+}
+.button1 {
+    background-color: orange;
+    border: solid 1px orange;
+    color: white;
+    padding: 15px 32px;
+    text-align: left !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: left !important;
+    
+  }
+  .image2{
+    width: 100%;
+    height: 65vh;
+}
+.box1{
+    border: none;
+    height: 80vh;
+}
+.box2{
+    height: 450px;
+    padding-block: 60px;
+    
+}
+.box3{
+    border: none;
+    padding-left: 20px;
+}
+.bgImg1{
+    width: 100%;
+    height: 65vh;
+	color:white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('image/food2.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+}
+.maincontent1{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;  
+   padding-top: 100px;
+   /* background-color: silver; */
+}
+.list_item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.title{
+    font-size: 20px;
+}
+h1{
+    font-family: DallasScript;
+    font-size: 60px;
+    margin: 0;
+}
+.price{
+    font-weight: 700;
+}
+.list_item::after{
+    content: "";
+    width: 50px;
+    color: red;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.sec{
+    padding-top: 100px;
+}
+.box2{
+    border: none;
+}
+.font{
+    font-size: 40px;
+}
+.box4{
+    width: 100%;
+    height: 55vh;
+    color:white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('image/jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box5{
+    text-align: center!important;
+}
+.box6{
+    width: 100%;
+    height: 55vh;
+    color:white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('image/jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+   
+}
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 768px)and (max-width: 1023px) {
+
+}
+@media only screen and (min-width: 960px)and (max-width: 1023px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 240px) and (max-width: 479px) {
+    .responsiveheading{
+        font-size: 20px;
+    }
+}
